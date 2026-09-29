@@ -6,13 +6,13 @@
   
   body {
   font-family: Arial, sans-serif;
-  background: #eeeeee;
-  color: #222;
+  background: #fffefe;
+  color: #000000;
   }
   
   header {
-  background: #123b6d;
-  color: white;
+  background: #164b8b;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 30px;
   }
@@ -61,7 +61,7 @@
   
   .titulo {
   margin-bottom: 20px;
-  border-left: 6px solid #1769aa;
+  border-left: 6px solid #08355a;
   padding-left: 10px;
   }
   
@@ -72,10 +72,10 @@
   }
   
   .card {
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 3px 8px #bbbbbb;
+  box-shadow: 0 3px 8px #ffffff;
   }
   
   .card img {
@@ -85,7 +85,7 @@
   }
   
   .card p {
-  color: #1769aa;
+  color: #04243f;
   font-weight: bold;
   padding: 15px 20px 0;
   }
@@ -97,8 +97,8 @@
   }
   
   footer {
-  background: #123b6d;
-  color: white;
+  background: #06023a;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 25px;
   margin-top: 40px;
