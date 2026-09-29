@@ -72,3 +72,73 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias do Dia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<header>
+    <h1>NOTÍCIAS DO DIA</h1>
+    <p>Os principais acontecimentos do dia</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Brasil</a>
+    <a href="#">Mundo</a>
+    <a href="#">Tecnologia</a>
+    <a href="#">Esportes</a>
+</nav>
+
+<!-- Menu de acessibilidade -->
+<div class="acessibilidade">
+    <button id="botaoLibras" type="button" aria-label="Ativar tradução para Libras">
+        ♿ Libras
+    </button>
+</div>
+
+<main>
+    ...
+</main>
+
+<footer>
+    <p>Notícias do Dia - Trabalho escolar</p>
+</footer>
+
+<script src="script.js"></script>
+
+<!-- VLibras -->
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+<script>
+    new window.VLibras.Widget(
+        'https://vlibras.gov.br/app'
+    );
+
+    document.getElementById('botaoLibras').addEventListener('click', function () {
+        const botaoVLibras = document.querySelector('[vw-access-button]');
+
+        if (botaoVLibras) {
+            botaoVLibras.click();
+        }
+    });
+</script>
+
+</body>
+</html>
